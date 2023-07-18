@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  width:100vw;
+  height:100vh;
+}
+
+.image {
+    width: 40vw;
+    background-image: url(./LIGHT.webp);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+
+    flex-direction: column;
+   flex-direction: column;
+}
+
+.text {
+  width: 120vmin;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.banner {
+  text-align: center;
+  background-color: rgba(1, 14, 75, 0.5);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  flex:0;
+}
+
+
+.logo {
+  color: white;
+  font-size: 12vmin;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-width: 5px;
+  
+}
+
+.dis {
+  margin: 3vmin;
+  margin-top: 16vmin;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 3.5vmin;
+}
+
+.form {
+  width: 40vw;
+  height:40vh;
+  background-color: whitesmoke;
+  border-radius: 35px;
+  box-shadow: 0px 4px 2px 1px rgba(49, 158, 236, 0.6);
+  display: flex;
+  flex-direction: column;
+  
+
+  align-items: center;
+  padding: 3vmin;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vmin;
+    width:auto;
+  }
+
+label {
+  width: 45%;
+}
+
+input {
+  margin-top: 1vmin;
+  width:auto;
+}
+
+hr {
+  border-width: 1px;
+  border-color: rgba(49, 158, 236, 0.6);
+}
+
+.highlight {
+  color: rgba(49, 158, 236);
+}
+button{
+    width: 15vmin;
+    font-size: 1rem;
+    color:white;
+    background-color: rgba(49, 158, 236,0.6); 
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 400px){
+
+}

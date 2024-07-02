@@ -1,0 +1,30 @@
+#gameboard{
+    display: grid;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:12vw 12vw 12vw;
+    height:25vw;
+    margin-top: 5vw;
+}
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 12vw;
+    height: 12vw;
+    border: 1px solid black;
+
+}
+#controls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}

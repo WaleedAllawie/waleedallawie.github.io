@@ -1,0 +1,14 @@
+#new-book-form{
+ display: none;
+}
+#libraryDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    margin-top: 2vw;
+}
+#libraryDiv>div{
+    background-color: red;
+    padding: 2vw;
+    margin: 1vw;
+}
